@@ -1,8 +1,8 @@
-import { UserBusiness } from '../../../../testes-backend-2/src/business/UserBusiness'
-import { UserDatabaseMock } from '../../../../testes-backend-2/tests/mocks/UserDatabaseMock'
-import { IdGeneratorMock } from '../../../../testes-backend-2/tests/mocks/IdGeneratorMock'
-import { TokenManagerMock } from '../../../../testes-backend-2/tests/mocks/TokenManagerMock'
-import { HashManagerMock } from '../../../../testes-backend-2/tests/mocks/HashManagerMock'
+import { UserBusiness } from '../../../testes-backend-2/src/business/UserBusiness'
+import { UserDatabaseMock } from '../../../testes-backend-2/tests/mocks/UserDatabaseMock'
+import { IdGeneratorMock } from '../../../testes-backend-2/tests/mocks/IdGeneratorMock'
+import { TokenManagerMock } from '../../../testes-backend-2/tests/mocks/TokenManagerMock'
+import { HashManagerMock } from '../../../testes-backend-2/tests/mocks/HashManagerMock'
 
 describe('login', () => {
     const userBusiness = new UserBusiness(
